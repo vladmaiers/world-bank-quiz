@@ -1,12 +1,10 @@
-import React from 'react';
 import Container from 'react-bootstrap/Container';
 
 import './App.css';
 
-function App() {
+const App = () => {
     return (
-        <body>
-
+        <div className="App">
             <link
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -29,8 +27,7 @@ function App() {
                 </Container>
                 <Container className="col-sm-2"/>
             </Container>
-
-        </body>
+        </div>
     );
 }
 
